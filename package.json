@@ -45,6 +45,8 @@
     },
     {
       "name": "anduck"
+    },
+      "name": "SolFly"
     }
   ],
   "dependencies": {
@@ -55,7 +57,13 @@
     "bitcoinjs-lib": "git+https://github.com/bitcoinjs/bitcoinjs-lib.git",
     "merkle-bitcoin": "git+https://github.com/joshuayabut/merkle-bitcoin.git",
     "promise": "*",
-    "sha3": "git+https://github.com/phusion/node-sha3.git"
+    "sha3": "git+https://github.com/phusion/node-sha3.git",
+        "bignum": "git://github.com/Invader444/node-bignum.git#node12",
+        "bitgo-utxo-lib": "git://github.com/miketout/bitgo-utxo-lib.git",
+        "cryptocurrency-addr": "git://github.com/Invader444/node-cryptocurrency-addr.git",
+        "equihashverify": "git://github.com/AoD-Technologies/equihashverify.git",
+        "multi-hashing": "git://github.com/Invader444/node-multi-hashing.git",
+        "verushash": "git://github.com/AoD-Technologies/verushash-node.git"
   },
   "deprecated": false,
   "description": "High performance Stratum poolserver in Node.js",
